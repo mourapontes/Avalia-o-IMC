@@ -46,3 +46,4 @@ Sugestões de dieta com acompanhamento profissional, priorizando alimentos saud�
 Exercícios leves e moderados com acompanhamento, como caminhada e hidroginástica.
 Nota de Segurança
 Este aplicativo é apenas para fins educacionais e informativos. Antes de iniciar qualquer atividade física ou dieta, consulte sempre um nutricionista e um profissional de educação física para garantir sua saúde e obter melhores resultados.
+Link para teste do Api: https://mourapontes.github.io/Avalia-o-IMC/
