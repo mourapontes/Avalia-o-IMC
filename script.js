@@ -10,7 +10,7 @@ document.getElementById("imcForm").addEventListener("submit", function(event) {
         resultado += "Você está abaixo do peso. Sugestões:";
         resultado += "<ul><li><strong>Cardápio:</strong> Alimentos ricos em carboidratos e proteínas, como batata doce, arroz integral, carnes magras e feijões.</li>";
         resultado += "<li><strong>Atividades:</strong> Exercícios de resistência como musculação, para ganho de massa muscular.</li></ul>";
-    } else if (imc >= 18.5 && imc < 24.9) {
+    } else if (imc >= 18.5 && imc < 24.99) {
         resultado += "Você está com peso normal. Sugestões:";
         resultado += "<ul><li><strong>Cardápio:</strong> Dieta balanceada com frutas, vegetais, proteínas magras e carboidratos complexos.</li>";
         resultado += "<li><strong>Atividades:</strong> Manter uma rotina de atividades físicas moderadas, como caminhadas ou ciclismo.</li></ul>";
