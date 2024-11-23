@@ -1,9 +1,9 @@
 document.getElementById("imcForm").addEventListener("submit", function(event) {
     event.preventDefault();
 
-    const peso = parseFloat(document.getElementById("peso").value);
-    const altura = parseFloat(document.getElementById("altura").value);
-    const imc = peso / (altura * altura);
+    var peso = parseFloat(document.getElementById("peso").value);
+    var altura = parseFloat(document.getElementById("altura").value);
+    var imc = peso / (altura * altura);
     let resultado = `Seu IMC é ${imc.toFixed(2)}. `;
 
     if (imc < 18.5) {
