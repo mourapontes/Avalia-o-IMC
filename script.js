@@ -14,7 +14,7 @@ document.getElementById("imcForm").addEventListener("submit", function(event) {
         resultado += "Você está com peso normal. Sugestões:";
         resultado += "<ul><li><strong>Cardápio:</strong> Dieta balanceada com frutas, vegetais, proteínas magras e carboidratos complexos.</li>";
         resultado += "<li><strong>Atividades:</strong> Manter uma rotina de atividades físicas moderadas, como caminhadas ou ciclismo.</li></ul>";
-    } else if (imc >= 25 && imc < 29.9) {
+    } else if (imc >= 25 && imc < 29.99) {
         resultado += "Você está com sobrepeso. Sugestões:";
         resultado += "<ul><li><strong>Cardápio:</strong> Alimentos com baixo teor calórico, como vegetais e proteínas magras; evitar alimentos processados.</li>";
         resultado += "<li><strong>Atividades:</strong> Exercícios aeróbicos, como corrida e natação, para perda de peso.</li></ul>";
